@@ -89,5 +89,8 @@
     ],
     "coverageDirectory": "../coverage",
     "testEnvironment": "node"
-  }
+  },
+  "pnpm": {
+     "inject-workspace-packages": true
+   }
 }

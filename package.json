@@ -11,7 +11,7 @@
     "vscode": ">=1.79"
   },
   "pnpm": {
-    "injectWorkspaceDependencies": true
+    "inject-workspace-packages": true
   },
   "scripts": {
     "dev": "pnpm run --parallel dev",

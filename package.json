@@ -11,7 +11,8 @@
     "vscode": ">=1.79"
   },
   "pnpm": {
-    "inject-workspace-packages": true
+    "inject-workspace-packages": true,
+    "force-legacy-deploy": true
   },
   "scripts": {
     "dev": "pnpm run --parallel dev",

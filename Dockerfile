@@ -2,6 +2,9 @@ FROM node:20-alpine AS base
 ENV PNPM_HOME="/pnpm"
 ENV PATH="$PNPM_HOME:$PATH"
 
+# Install OpenSSL for Prisma
+RUN apk add --no-cache openssl openssl-dev
+
 RUN npm i -g pnpm
 
 FROM base AS build
